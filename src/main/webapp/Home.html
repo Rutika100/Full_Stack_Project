@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<style>
+/* General body styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+}
+
+/* Navigation bar styling */
+.navbar {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.logo img {
+	height: 50px; /* Adjust logo height as needed */
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 80px;
+	font-size: 16px;
+	transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+	opacity: 0.8; /* Reduce opacity on hover */
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	color: black;
+	animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+from { 
+   opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
+
+}
+.showcase {
+	background: url('path/to/your/image.jpg') no-repeat 0 -400px;
+	min-height: 400px;
+	text-align: center;
+	color: #fff;
+}
+
+.showcase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+.showcase p {
+	font-size: 20px;
+}
+
+.content {
+	padding: 20px 0;
+}
+
+.content h2 {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.content .box {
+	width: 30%;
+	float: left;
+	margin: 0 1.5%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+	border: #e4e4e4 1px solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.content .box img {
+	width: 50px;
+}
+
+.content .box h3 {
+	margin: 10px 0;
+}
+
+.content .box p {
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-top: 10px;
+}
+</style>
+<body>
+	<form>
+
+
+		<nav class="navbar">
+			<div class="logo">
+				<h3>QuickRecharge</h3>
+			</div>
+			<div class="nav-links">
+				<a href="RegisterView.html">Register</a> <a href="LoginView.html">Login</a>
+			</div>
+		</nav>
+
+
+		<section class="showcase">
+			<div class="container">
+				<h1>Welcome to QuickRecharge</h1>
+				<p>Your One-Stop Solution for All Your Recharge Needs</p>
+			</div>
+		</section>
+
+		<section class="content container">
+			<h2>Why Choose QuickRecharge?</h2>
+			<div class="box">
+				<img src="" alt="Fast Recharges">
+				<h3>Fast and Easy Recharges</h3>
+				<p>Enjoy instant recharges and payments with just a few clicks.
+					Our user-friendly interface ensures that you can complete
+					transactions quickly and efficiently.</p>
+			</div>
+			<div class="box">
+				<img src="" alt="Payment Options">
+				<h3>Multiple Payment Options</h3>
+				<p>We support a wide range of payment methods, including
+					credit/debit cards, net banking, and popular wallets, so you can
+					choose the one that suits you best.</p>
+			</div>
+			<div class="box">
+				<img src="secure.png" alt="Secure Payments">
+				<h3>Safe and Secure</h3>
+				<p>Your security is our top priority. All transactions are
+					encrypted and protected, giving you peace of mind every time you
+					use our service.</p>
+			</div>
+		</section>
+
+		<footer>
+			<p>QuickRecharge &copy; 2024</p>
+			<ul class="about">
+				<li>email</li>
+				<li>+91(000-00-00-000)</li>
+				<li>www.QuickRecharge.in</li>
+			</ul>
+		</footer>
+
+	</form>
+</body>
+</html>
